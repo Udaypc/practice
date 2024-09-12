@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+}
+.bgContainer{
+    height: 100vh;
+    background-image: url('https://data.pixiz.com/output/user/frame/preview/400x400/7/7/1/0/2950177_4fd1b.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#yes{
+    background-color: rgb(106, 255, 0);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Bree Serif;
+    margin-top: 20px;
+
+}
+#no{
+    background-color: rgb(251, 0, 255);
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: Bree Serif;
+    transition: all 0s linear;
+    margin-left: 20px;
+    position: fixed;
+    margin-top: 20px;
+}
+#heading{
+    margin-left: 80px;
+    color: rgb(8, 192, 192);
+}
+
